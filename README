@@ -1,0 +1,15 @@
+#Geocoding Postcodes using google
+
+#Please note google's terms of service 
+#and policy with regards of the number 
+#of times you can geocode in a day etc
+
+#To use this function simply open the 
+#geocode.php file & enter your api maps 
+#key in the $config['maps_key'] variable
+
+#Get the latitude & longitude like so
+#$postcode = "EH12 5UB";
+#$coords = get_lat_long($postcode);
+#$coords['lat']; 	//latitude
+#$coords['lng'];	//longitude
