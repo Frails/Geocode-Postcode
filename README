@@ -13,3 +13,13 @@
 #$coords = get_lat_long($postcode);
 #$coords['lat']; 	//latitude
 #$coords['lng'];	//longitude
+
+#uses google.co.uk by default
+
+#International Geocoding
+#add the domain of google that you wish
+#to geocode from i.e. Canada
+#$postcode = "T0A 0A0";
+#$coords = get_lat_long($postcode, "ca");
+#$coords['lat']....
+#will use google.ca to geocode
